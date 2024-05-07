@@ -9,7 +9,7 @@ const listingSchema = new Schema({
     description: String,
     image: {
         type: String,
-        default: "https://unsplash.com/photos/birds-eye-view-photograph-of-green-mountains-01_igFr7hd4",
+        default: " ",
         set: (v) => v === "" ? "https://unsplash.com/photos/birds-eye-view-photograph-of-green-mountains-01_igFr7hd4" : v,
     },
     price: Number,
